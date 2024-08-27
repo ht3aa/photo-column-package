@@ -1,0 +1,28 @@
+{
+    "name": "ta3leem/photo-column",
+    "description": "updatable photo column for filaments tables",
+    "autoload": {
+        "psr-4": {
+            "Ta3leem\\PhotoColumn\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ht3aa",
+            "email": "ht3aa@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ta3leem\\PhotoColumn\\PhotoColumnServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": "*",
+        "illuminate/support": "^11.21",
+        "filament/filament": "^3.2"
+    }
+}
